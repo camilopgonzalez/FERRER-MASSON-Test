@@ -25,6 +25,6 @@ docker-compose run --rm node-service
 To run tests:
 
 docker exec -it php-container bash
-composer require --dev gricob/functional-test-bundle
+composer require liorchamla/symfony-test-helpers
 vendor/bin/phpunit
 
