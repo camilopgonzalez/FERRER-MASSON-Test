@@ -22,3 +22,9 @@ composer install and composer update
 docker exec -it node-container bash
 docker-compose run --rm node-service
 
+To run tests:
+
+docker exec -it php-container bash
+composer require --dev gricob/functional-test-bundle
+vendor/bin/phpunit
+
