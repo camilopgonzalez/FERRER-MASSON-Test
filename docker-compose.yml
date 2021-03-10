@@ -59,6 +59,6 @@ services:
         networks:
             - nginx-php-mysql-node
 
-        command: npm run watch
+        command: bash -c "npm run dev && npm run dev"
         ports:
             - "3000:3000"
