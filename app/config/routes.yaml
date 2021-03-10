@@ -1,0 +1,15 @@
+index:
+    path: /
+    controller: App\Controller\ProductController::index
+new:
+    path: /new
+    controller: App\Controller\ProductController::new
+show:
+    path: /{id}
+    controller: App\Controller\ProductController::show
+edit:
+    path: /{id}/edit
+    controller: App\Controller\ProductController::edit
+delete:
+    path: /{id}
+    controller: App\Controller\ProductController::delete
