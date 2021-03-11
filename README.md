@@ -15,12 +15,12 @@ mysql  8
 
 To run:
 after clone
-go to root folder and checkout master then pull
-go to the project root folder and execute docker-compose up -d --build
-docker exec -it php-container bash
-composer install and composer update
-php bin/console doctrine:schema:update --force
-docker exec -it node-container bash
+go to root folder and checkout master then pull,
+go to the project root folder and execute docker-compose up -d --build,
+docker exec -it php-container bash,
+composer install and composer update,
+php bin/console doctrine:schema:update --force,
+docker exec -it node-container bash,
 docker-compose run --rm node-service
 
 To run tests:
